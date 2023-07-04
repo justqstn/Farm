@@ -1,0 +1,19 @@
+{
+  "Name": "Фарм сундуков и опыта",
+  "Description": "Режим от just_qstn. Для работы фарма в комнате должно быть не менее двух человек. Создаете, и ждете свои сундуки!",
+  "StartClientVersion": 334,
+  "MapFilter": {
+    "IsBlank": false,
+    "HasParcourEnd": false
+  },
+  "MapLists": [
+    {
+      "MapListId": 324,
+      "Name": "Официальные карты"
+    },
+    {
+      "MapListId": 581
+    }
+  ],
+  "Parameters": {}
+}
