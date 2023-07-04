@@ -1,6 +1,8 @@
+import data from './data.json'
+
 var inf = Timers.GetContext().Get("inf");
 var t = Timers.GetContext().Get("t");
-Teams.Add("1", "<B>режим от just_qstn</B>", { r: 1 });
+Teams.Add("1", data.name, { r: 1 });
 Teams.Add("2", "<B>подпишись на ютуб канал just_qstn</B>", { b: 1 });
 TeamsBalancer.IsAutoBalance = true;
 Teams.OnRequestJoinTeam.Add(function (p, team) {
